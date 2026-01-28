@@ -1,81 +1,89 @@
-# Alfa Solar - Website
+# Alfa Solar - Site Institucional
 
-Site institucional da Alfa Solar, especializada em energia solar fotovoltaica em Presidente Prudente/SP.
+Site institucional da Alfa Solar, empresa especializada em energia solar fotovoltaica em Presidente Prudente/SP.
 
 ## 🌟 Características
 
-- **Design Moderno**: Interface moderna e responsiva com animações suaves
-- **Otimizado para SEO**: Meta tags, dados estruturados e sitemap
-- **Performance**: Otimizado para velocidade e experiência do usuário
-- **Responsivo**: Funciona perfeitamente em desktop, tablet e mobile
-- **Acessível**: Seguindo boas práticas de acessibilidade
+- **Design Moderno**: Interface limpa com tema amarelo/âmbar
+- **Responsivo**: Otimizado para desktop, tablet e mobile
+- **Performance**: Construído com Next.js 14 e Tailwind CSS
+- **Animações**: Transições suaves com Framer Motion
+- **SEO Otimizado**: Meta tags, sitemap e dados estruturados
+- **Formulário Integrado**: Sistema de contato com FormSubmit + WhatsApp
 
 ## 🚀 Tecnologias
 
-- **Next.js 15** - Framework React
-- **TypeScript** - Tipagem estática
-- **Tailwind CSS** - Estilização
-- **Framer Motion** - Animações
-- **Lucide React** - Ícones
-- **Next SEO** - Otimização para SEO
+- **Framework**: Next.js 14 (App Router)
+- **Styling**: Tailwind CSS
+- **Animações**: Framer Motion
+- **Ícones**: Lucide React
+- **WhatsApp**: React Floating WhatsApp
+- **TypeScript**: Para tipagem estática
 
-## 📦 Instalação
+## 📱 Funcionalidades
 
-1. Clone o repositório:
+### Seções do Site
+- **Hero**: Apresentação principal com call-to-action
+- **Serviços**: Orçamento, projeto, instalação e suporte
+- **Sobre**: História e valores da empresa
+- **Empresa**: Informações corporativas
+- **Portfólio**: Projetos realizados
+- **FAQ**: Perguntas frequentes sobre energia solar
+- **Contato**: Formulário integrado + Google Maps
+
+### Integrações
+- **FormSubmit**: Envio de emails automático
+- **WhatsApp**: Redirecionamento automático após formulário
+- **Google Maps**: Localização da empresa
+- **Analytics**: Preparado para Google Analytics
+
+## 🛠️ Instalação
+
 ```bash
-git clone <repository-url>
-cd alfa-solar
-```
+# Clone o repositório
+git clone https://github.com/GustavoCortezBrito/AlfaSolarSite.git
 
-2. Instale as dependências:
-```bash
+# Entre na pasta
+cd AlfaSolarSite
+
+# Instale as dependências
 npm install
-```
 
-3. Execute o projeto em desenvolvimento:
-```bash
+# Execute em desenvolvimento
 npm run dev
 ```
 
-4. Abra [http://localhost:3000](http://localhost:3000) no seu navegador.
-
-## 🏗️ Build para Produção
+## 📦 Scripts Disponíveis
 
 ```bash
-npm run build
-npm start
+npm run dev      # Servidor de desenvolvimento
+npm run build    # Build de produção
+npm run start    # Servidor de produção
+npm run lint     # Verificação de código
 ```
 
-## 📱 Seções do Site
+## 🎨 Paleta de Cores
 
-- **Hero**: Apresentação principal com call-to-action
-- **Serviços**: Serviços oferecidos (orçamento, projeto, instalação)
-- **Sobre**: História e valores da empresa
-- **Empresa**: Informações sobre a Alfa Solar
-- **Portfólio**: Projetos realizados
-- **FAQ**: Perguntas frequentes sobre energia solar
-- **Contato**: Formulário de contato e informações
-
-## 🎨 Personalização
-
-### Cores
-As cores principais podem ser alteradas no arquivo `tailwind.config.js`:
-- Laranja: `#f97316`
-- Amarelo: `#f59e0b`
-
-### Conteúdo
-O conteúdo pode ser editado diretamente nos componentes em `/components/`.
-
-### Imagens
-Adicione suas imagens na pasta `/public/` e atualize as referências nos componentes.
+- **Primária**: Amarelo/Âmbar (#F59E0B, #FCD34D)
+- **Secundária**: Branco (#FFFFFF)
+- **Texto**: Slate (#0F172A, #475569)
+- **Acentos**: Verde (WhatsApp), Azul (Links)
 
 ## 📞 Contato
 
-Para dúvidas sobre o projeto, entre em contato:
-- **Telefone**: (18) 99999-9999
-- **E-mail**: contato@alfasolar.com.br
-- **Endereço**: Presidente Prudente/SP
+- **Telefone**: (18) 99697-6413 / (18) 99671-8920
+- **Email**: atendimentoalfasolar@gmail.com
+- **Endereço**: Av. Joaquim Constantino, 1880 - Presidente Prudente/SP
+
+## 👨‍💻 Desenvolvedor
+
+Desenvolvido por **Gustavo Cortez de Brito**
+- Instagram: [@gustavocortez.dev](https://www.instagram.com/gustavocortez.dev/)
 
 ## 📄 Licença
 
 Este projeto é propriedade da Alfa Solar. Todos os direitos reservados.
+
+---
+
+© 2026 Alfa Solar - Energia Solar Fotovoltaica
