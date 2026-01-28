@@ -1,0 +1,16 @@
+{
+  "name": "Alfa Solar - Energia Solar Fotovoltaica",
+  "short_name": "Alfa Solar",
+  "description": "Especialistas em energia solar fotovoltaica em Presidente Prudente/SP",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon"
+    }
+  ]
+}
